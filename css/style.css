@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'New Amsterdam';
+}
+
+.new-amsterdam-regular{
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #B6A6CA;
+}
+.main_header {
+    background-color: #A09ABC;
+    list-style-type: none;
+    color: white;
+
+    .navbar-brand {
+        width: 25%;
+    }
+
+    .head_logo_img {
+        width: 40%;
+    }
+}
+
+.main_principal {
+    text-align: center;
+    color: #D5CFE1;
+    padding: 10px;
+    background-color: #B6A6CA;
+}
+.principal{
+    img{
+        width: 50%;
+        border-radius: 10px;
+        padding-bottom: 10px;
+    }
+}
+.product-div{
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-image{
+    width: 15%;
+    padding-bottom: 10px;
+}
+
+.product-button {
+    background-color: #B6A6CA;
+    color: #D5CFE1;
+    width: 10%;
+    padding: 5px;
+    border-radius: 20px;
+    border: black 2px solid;
+}
+
+.new-client{
+    background-color: #B6A6CA;
+    padding: 5px;
+    border-radius: 20px;
+    color: #D5CFE1;
+    border: #A09ABC 2px solid;
+}
+
+#confirm-button{
+    background-color: #D5CFE1;
+    padding: 5px;
+    border-radius: 20px;
+    color: black;
+    border: black 2px solid;
+
+}
+
+.order{
+    background-color: #B6A6CA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    background-color: #D5CFE1;
+    padding: 5px;
+    border-radius: 20px;
+    color: black;
+    border: black 2px solid;
+}
+
+footer {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #A09ABC;
+    color: black;
+}
